@@ -58,3 +58,9 @@ window.onclick = function(event) {
 function showPaymentMethods() {
     document.getElementById('payment-methods').style.display = 'block';
 }
+
+document.querySelectorAll('.view-more').forEach(button => {
+    button.addEventListener('click', () => {
+      alert('More details about the menu item coming soon!');
+    });
+  });
