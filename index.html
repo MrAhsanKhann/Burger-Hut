@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berger Hut</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bookings.css">
+</head>
+<body>
+
+<header class="dark-header">
+    <div class="container">
+        <a href=""><img src="iconlogo.png" alt="logo" class="logo"></a>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="bookings.html" class="cta-btn">Book Now</a>
+    </div>
+</header>
+
+<section class="dark-hero" id="home">
+    <div class="container">
+        <h1> <span>Welcome</span> <span>to</span> <span>Berger</span> <span>Hut</span> </h1>
+        <p class="para"> <span>Where</span> <span>every</span> <span>bite</span> <span>tells</span> <span>a</span> <span>story</span> </p>
+        
+    </div>
+</section>
+
+<section id="testimonials-section" class="testimonials"> 
+    <div class="testimonial"> 
+        <p>"Berger Hut provides the best deals and fast delivery!"</p> 
+        <h4>- Ahsan Khan</h4> 
+    </div> 
+    <div class="testimonial"> 
+        <p>"Amazing variety of paints and great customer service."</p> 
+        <h4>- Talha Khan</h4> 
+    </div>
+    <div class="testimonial"> 
+        <p>"Delecious taste and beautiful gallery."</p> 
+        <h4>- M Rehan </h4> 
+    </div> 
+</section>
+
+<section class="about-us dark-section" id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Berger Hut is more than just a restaurant. It's a place where flavors, stories, and memories come together to create an unforgettable experience.</p>
+        <p>Our journey began with a passion for delicious food and a desire to share it with the world. Each dish we serve tells a story, from the locally sourced ingredients to the careful preparation by our talented chefs.</p>
+        <p>Join us at Berger Hut and embark on a culinary adventure unlike any other. Every bite is a step into our world, where food is not just a meal but a celebration of life.</p>
+    </div>
+</section>
+
+
+<section class="menu dark-section" id="menu">
+    <div class="container">
+        <h2>Menu</h2>
+        
+        <div class="menu-item">
+            <h3>Appetizers</h3>
+            <ul>
+                <li>Garlic Parmesan Fries</li>
+                <li>Bruschetta with Tomato & Basil</li>
+                <li>Spinach Artichoke Dip</li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Main Courses</h3>
+            <ul>
+                <li>Classic Berger Burger</li>
+                <li>Grilled Chicken Sandwich</li>
+                <li>Mushroom Risotto</li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Desserts</h3>
+            <ul>
+                <li>New York Cheesecake</li>
+                <li>Chocolate Lava Cake</li>
+                <li>Tiramisu</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- ///////////////////////// -->
+
+<div class="membership-card"> 
+    <!-- <img src="Capture.PNG" alt="mCard">  -->
+    <h3>Membership Card</h3> 
+    <p>$29.99</p> 
+    <button class="membership-btn"onclick="showPaymentMethods()">Buy Now</button> 
+</div>
+
+<div id="payment-methods" class="payment-methods" style="display:none;">
+    <h3>Select Payment Method</h3>
+    <button>Credit Card</button>
+    <button>PayPal</button>
+    <button>Bank Transfer</button>
+</div>
+<section class="gallery dark-section" id="gallery">
+    <div class="container">
+        <h2>Gallery</h2>
+        
+        <div class="gallery-images">
+            <img src="gallery1.jpg" alt="Gallery Image 1">
+            <img src="gallery2.jpg" alt="Gallery Image 2">
+            <img src="gallery3.jpg" alt="Gallery Image 3">
+            <img src="gallery4.jpg" alt="Gallery Image 4">
+        </div>
+    </div>
+</section>
+<!-- ............................. -->
+
+
+<section class="contact-us dark-section" id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Berger Street, City, Country</p>
+            <p><strong>Phone:</strong> +123 456 789</p>
+            <p><strong>Email:</strong> info@bergerhut.com</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- .................................. -->
+<footer class="dark-footer">
+    <div class="container">
+        <div class="footer-left">
+            <p>&copy; 2024 Berger Hut. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+<button id="openPopup">Open Popup</button> 
+<div id="popup" class="popup"> 
+    <div class="popup-content"> 
+        <span id="closePopup">&times;</span> 
+        <h2>Welcome to Berger Hut!</h2> 
+        <p>We offer great food and services. Explore our menu!</p> 
+    </div> 
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
