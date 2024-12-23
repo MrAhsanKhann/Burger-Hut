@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
+    
 }
 
 .navbar {
@@ -38,6 +39,10 @@ body {
 }
 
 .booking-form {
+    background-image: url(table-booking.jpeg);
+     background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
     background-color: #ffffff;
     padding: 50px 20px;
     text-align: center;
@@ -45,22 +50,27 @@ body {
 .booking-form h1, .booking-form p{
     text-align: center;
     margin: 20px 0px;
+    
 }
 .booking-form h1 {
     font-size: 3rem;
     margin-bottom: 30px;
-    color: #000000;
+    color: #e6ae17;
 }
 
 .booking-form p {
     font-size: 1.2rem;
     margin-bottom: 40px;
-    color: #000000;
+    color: #b0c72e;
 }
 
 .booking-form label {
     font-size: 18px;
-    color: #000000;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    -webkit-text-stroke: #000000;
+    -webkit-text-fill-color: #f5f5f5;
     margin-top: 10px;
     display: block;
     text-align: left;
@@ -90,6 +100,7 @@ body {
 .booking-form button:hover {
     background-color: #e72323;
 }
+
 
 .dark-footer {
     background-color: #000000;

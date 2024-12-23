@@ -583,6 +583,8 @@ p span:nth-child(6) { animation-delay: 5s; }
 
 
 .dark-footer {
+    display: flex;
+    justify-content: space-between;
     background-color: black; 
     color: #fff; 
     padding: 20px 0;
